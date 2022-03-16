@@ -94,7 +94,7 @@ async function build() {
   try {
     const { bundleGraph, buildTime } = await bundler.run();
     const bundles = bundleGraph.getBundles();
-    console.log(`🔥  Built ${bundles.length} bundles in ${buildTime}ms!`);
+    console.log(`🔥 Built ${bundles.length} bundles in ${buildTime}ms!`);
   } catch (error) {
     console.log(error.diagnostics);
   }
