@@ -14,6 +14,7 @@ const bundler = new Parcel({
   mode: "production",
   targets: {
     main: {
+      engines: {},
       distDir,
       distEntry,
       includeNodeModules: false

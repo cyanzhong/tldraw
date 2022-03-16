@@ -1,8 +1,8 @@
 {
   "license": "MIT",
   "devDependencies": {
-    "@parcel/core": "2.0.1",
-    "@parcel/config-default": "2.0.1"
+    "@parcel/core": "2.3.2",
+    "@parcel/config-default": "2.3.2"
   },
   "dependencies": {
     "@swc/helpers": "0.2.14",
